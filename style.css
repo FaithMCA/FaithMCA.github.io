@@ -9,3 +9,22 @@
    line-height:inherit;
    color:inherit;
 }
+html, body{
+    font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+    font: size 18px;
+    line-height:30px;
+    background-color: #222222;
+    color:#e4e4e4
+    /*text-shadow:1px 1px 0px #fff;*/
+}
+body{
+    text-align:center;
+}
+h1{ /*THIS IS THE HEADER*/
+    font-size:36px;
+    line-height:50px; /*LINE 25 IS HOW TO CHANGE THE IMAGE PROFILE ROUNDNESS*/
+    font-weight:bold;
+}
+img{
+    border-radius:50%;
+}
