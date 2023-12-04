@@ -25,6 +25,16 @@ h1{ /*THIS IS THE HEADER*/
     line-height:50px; /*LINE 25 IS HOW TO CHANGE THE IMAGE PROFILE ROUNDNESS*/
     font-weight:bold;
 }
+h1 sub{
+    color:#6b6b6b;
+    vertical-align:baseline;
+}
+h1 sub:before{
+    content:"(";
+}
+h1 sub:after{
+    content:")";
+}
 img{
     border-radius:50%;
 }
